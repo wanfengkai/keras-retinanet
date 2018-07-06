@@ -47,7 +47,7 @@ Most scripts (like `retinanet-evaluate`) also support converting on the fly, usi
 ## Training
 
 # Using the installed script:
-# 兽兽你只要做下面这一行就行。
+# 兽兽你只要做下面这一行就行。annotation.txt 可以根据你的需要改，但是ID_mapping 就不用改了
 keras_retinanet/bin/train.py csv ./csv_files_for_train/annotation.txt ./csv_files_for_train/ID_mapping.txt
 ```
 
